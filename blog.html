@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Add Blog</h2>
+  <form id="addBlogForm">
+    <input type="text" id="title" placeholder="Blog Title" required><br>
+    <textarea id="content" placeholder="Blog Content" required></textarea><br>
+    <input type="text" id="category" placeholder="Category"><br>
+    <input type="file" id="image"><br>
+    <button type="submit">Add Blog</button>
+  </form>
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+ <script src="js/auth.js" defer></script>
+<script src="js/blog.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
